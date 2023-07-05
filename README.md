@@ -15,8 +15,11 @@ ResUNet is an extension of the UNet architecture that incorporates residual conn
 To assess the performance of deep learning-based image segmentation, these metrics are commonly used:
 
 Intersection over Union (IoU) and Dice Coefficient: These metrics evaluate the overlap between the predicted segmentation mask (P) and the ground truth mask (G). They are calculated as:
+
 IoU = (Area of Intersection) / (Area of Union)
+
 Dice = (2 * Area of Intersection) / (Area of P + Area of G)
+
 These metrics provide a measure of how well the predicted segmentation aligns with the ground truth, with values close to 1 indicating high accuracy. (Rezatofighi et al. 2019)
 
 
