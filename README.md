@@ -10,6 +10,7 @@ Clothing Co-Parsing (CCP) dataset is a new clothing dataset including elaboratel
 
 # Architecture Proposal
 ResUNet is an extension of the UNet architecture that incorporates residual connections from the ResNet model. It consists of a contracting path, an expanding path, and residual connections. The contracting path captures context information, while the expanding path aims for precise segmentation. Residual connections allow direct information flow between layers, mitigating the vanishing gradient problem and enabling more efficient learning. This combination of UNet's skip and ResNet's residual connections enhances the model's suggestive power, improving accuracy and robustness. ResUNet has demonstrated excellent performance in various image segmentation tasks, offering a powerful solution for tasks requiring precise localization and identification of objects in images.![RESUNET_ARCH](https://github.com/SwarajSingh3005/ASE_Submission/assets/114939556/ed74240d-d7bf-4c65-8fee-7d082136e6f6)
+
 Block diagram of the RESUNET architecture.(Tomar 2021)
 
 
