@@ -1,5 +1,5 @@
 # Abstract
-Image segmentation is a fundamental task in computer vision to partition an image into meaningful regions or objects. It is crucial in various applications, including object recognition, scene understanding, and medical image analysis. 
+Image segmentation finds applications in various fields, such as scene understanding, medical image analysis, video surveillance, augmented  reality and image compression. Over  the years, numerous  algorithms for image segmentation have been developed. However, with the  recent success of deep learning models in various vision tasks, there has been a significant focus on developing image segmentation approaches using deep   learning.
 
 # Detailed Description
 Image segmentation using deep learning is a computer vision task that aims to partition an image into meaningful regions. Deep learning models, particularly convolutional neural networks (CNNs), have proven highly effective for image segmentation. These models learn to automatically extract relevant features from the input image and classify each pixel into different categories or object classes.
