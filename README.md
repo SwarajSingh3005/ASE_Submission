@@ -30,6 +30,7 @@ Dice = (2 * Area of Intersection) / (Area of P + Area of G)
 These metrics provide a measure of how well the predicted segmentation aligns with the ground truth, with values close to 1 indicating high accuracy. (Rezatofighi et al. 2019)
 
 
+
 Mean Average Precision (mAP): Commonly used in object detection tasks, mAP evaluates the precision and recall of segmented objects. It considers various thresholds for defining positive or negative predictions and calculates the average precision across different object classes.
 
 mAP = (Average Precision for Class 1 + Average Precision for Class 2 + ... + Average Precision for Class N) / N
