@@ -35,7 +35,8 @@ Mean Average Precision (mAP): Commonly used in object detection tasks, mAP evalu
 mAP = (Average Precision for Class 1 + Average Precision for Class 2 + ... + Average Precision for Class N) / N
 
 
-This metric provides a comprehensive evaluation of segmentation performance across multiple object classes. (Henderson and Ferrari 2016)
+This metric provides a comprehensive evaluation of segmentation performance across multiple object classes(Henderson and Ferrari 2016).
+
 These evaluation metrics allow for quantitative assessment of the accuracy, boundary delineation, and overall quality of deep learning-based image segmentation. By comparing the performance of different models and techniques, researchers and practitioners can improve segmentation algorithms and achieve more accurate and reliable results.
 
 # Reference
