@@ -6,10 +6,11 @@ Image segmentation involves dividing an image into semantically meaningful regio
 Deep learning has shown remarkable success in image segmentation tasks by leveraging convolutional neural networks (CNNs) and advanced architectures like U-Net, Mask R-CNN, and Fully Convolutional Networks (FCNs). These models learn to extract high-level features and spatial. (Minaee et al. 2020)
 
 # Dataset
-Clothing Co-Parsing (CCP) dataset is a new clothing dataset including elaborately annotated clothing items. The dataset comprises 1000 images and their respective semantic segmentation masks in PNG format. Each image and mask have dimensions of 825 pixels by 550 pixels. The masks are categorized various clothing items like shirts, hair, pants, skin, shoes, and glasses. (Yang n.d.)
+Clothing Co-Parsing (CCP) dataset is a new clothing dataset including elaborately annotated clothing items. The dataset comprises 1000 images and their respective semantic segmentation masks in PNG format. Each image and mask have dimensions of 825 pixels by 550 pixels. The masks are categorized various clothing items like shirts, hair, pants, skin, shoes, and glasses. (Yang et al. 2015)
 
 # Architecture Proposal
-ResUNet is an extension of the UNet architecture that incorporates residual connections from the ResNet model. It consists of a contracting path, an expanding path, and residual connections. The contracting path captures context information, while the expanding path aims for precise segmentation. Residual connections allow direct information flow between layers, mitigating the vanishing gradient problem and enabling more efficient learning. This combination of UNet's skip and ResNet's residual connections enhances the model's suggestive power, improving accuracy and robustness. ResUNet has demonstrated excellent performance in various image segmentation tasks, offering a powerful solution for tasks requiring precise localization and identification of objects in images.
+ResUNet is an extension of the UNet architecture that incorporates residual connections from the ResNet model. It consists of a contracting path, an expanding path, and residual connections. The contracting path captures context information, while the expanding path aims for precise segmentation. Residual connections allow direct information flow between layers, mitigating the vanishing gradient problem and enabling more efficient learning. This combination of UNet's skip and ResNet's residual connections enhances the model's suggestive power, improving accuracy and robustness. ResUNet has demonstrated excellent performance in various image segmentation tasks, offering a powerful solution for tasks requiring precise localization and identification of objects in images.![RESUNET_ARCH](https://github.com/SwarajSingh3005/ASE_Submission/assets/114939556/ed74240d-d7bf-4c65-8fee-7d082136e6f6)
+
 
 # Metrics and Evaluation
 To assess the performance of deep learning-based image segmentation, these metrics are commonly used:
@@ -43,9 +44,6 @@ Rezatofighi, H., Tsoi, N., Gwak, J., Sadeghian, A., Reid, I. and Savarese, S., 2
 (Sarda and Sun 2023)
 
 Sarda, S. and Sun, T., 2023. Clothing segmentation for virtual try-on [online]. Stanford.edu. Available from: http://cs230.stanford.edu/projects_fall_2021/reports/103136976.pdf [Accessed 5 Jul 2023].
-(Yang n.d.)
 
-Yang, W., n.d. clothing-co-parsing: CCP dataset from "Clothing Co-Parsing by Joint Image Segmentation and Labeling " (CVPR 2014).
-(Yang et al. 2015)
 
-Yang, W., Luo, P. and Lin, L., 2015. Clothing co-parsing by joint image segmentation and labeling. arXiv [cs.CV] [online]. Available from: http://arxiv.org/abs/1502.00739 [Accessed 5 Jul 2023].
+Yang, W., Luo, P. and Lin, L., 2015. Clothing co-parsing by joint image segmentation and labeling. arXiv [cs.CV] [online]. Available from: https://github.com/bearpaw/clothing-co-parsing#readme ,  http://arxiv.org/abs/1502.00739 [Accessed 5 Jul 2023].
