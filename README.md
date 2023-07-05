@@ -3,7 +3,9 @@ Image segmentation is a fundamental task in computer vision to partition an imag
 
 # Detailed Description
 Image segmentation using deep learning is a computer vision task that aims to partition an image into meaningful regions. Deep learning models, particularly convolutional neural networks (CNNs), have proven highly effective for image segmentation. These models learn to automatically extract relevant features from the input image and classify each pixel into different categories or object classes.
+
 The process begins by training the CNN on a labelled dataset, where each pixel is assigned a specific class or label. The network learns to identify patterns and textures associated with different objects or regions in the training images. During inference, the trained model takes an input image and predicts a segmentation mask, where each pixel is assigned a class label based on its visual characteristics.
+
 Deep learning has shown remarkable success in image segmentation tasks by leveraging convolutional neural networks (CNNs) and advanced architectures like U-Net, Mask R-CNN, and Fully Convolutional Networks (FCNs). These models learn to extract high-level features and spatial.
 Deep learning-based image segmentation has numerous applications, including medical imaging, autonomous driving, and object recognition. By accurately delineating object boundaries, this technique enables more precise analysis and understanding of images, leading to advancements in various fields. Additionally, researchers continue to explore and develop novel architectures and techniques to improve the performance and efficiency of deep learning-based image segmentation systems. (Minaee et al. 2020)
 
