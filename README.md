@@ -17,6 +17,11 @@ ResUNet is an extension of the UNet architecture that incorporates residual conn
 
 Block diagram of the RESUNET architecture.(Tomar 2021)
 
+![RESUNET_2-1024x648](https://github.com/SwarajSingh3005/ASE_Submission/assets/114939556/fca7c8a2-60a2-418c-a6a1-f1f5c3626439)
+
+(a) Block diagram of the convolution block used in UNET and (b) residual block with identity mapping used in the proposed RESUNET.(Tomar 2021)
+
+
 
 # Metrics and Evaluation
 To assess the performance of deep learning-based image segmentation, these metrics are commonly used:
